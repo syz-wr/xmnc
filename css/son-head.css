@@ -1,0 +1,57 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.display-all{
+	width: 100%;
+	
+	background: url(../img/display/m-banner.jpg) no-repeat center;
+	
+}
+header{
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+}
+.display-all-mask{
+	width: 100%;
+	height:100%;
+	background: rgba(255,255,255,0.58);
+	position:absolute;
+	
+}
+
+.display-all-mask .no-1{
+	font-size: 58px;
+    color: #e8c520;
+    -webkit-text-stroke: 2px #fff;
+    letter-spacing: 3px;
+    padding-bottom: 5px;
+    padding-top: 90px;
+    text-align: center;
+   margin-top: 200px;
+    font-weight: bold;
+}
+.sanjiao{
+	    width: 0;
+    height: 0;
+    border-width: 26px 26px 0;
+    border-style: solid;
+    border-color: #fff transparent transparent;
+    position: relative;
+    left: 50%;
+    margin-left: -20px;
+}
+.sanjiao-son{
+	content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 20px 20px 0;
+    border-style: solid;
+    border-color: #fc0 transparent transparent;
+    position: absolute;
+    top: -24px;
+    left: -20px;
+}

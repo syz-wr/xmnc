@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>熊芒优惠活动有哪些？熊芒冷饮店福利_加盟优惠【熊芒加盟官网】</title>
+		<meta name="keywords" content="熊芒优惠活动有哪些,熊芒福利,熊芒加盟优惠" />
+		<meta name="description" content="想了解熊芒各类活动的看这里！各类最新优惠活动，门店活动、微信公众号福利、加盟费直降活动等等，我们的宗旨就是服务好消费者、服务好加盟商，更多福利可详询400-101-1897" />
+		
+		<link rel="shortcut icon"  href="img/activies/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="css/son-head.css"/>
+		<link rel="stylesheet" type="text/css" href="css/brandactivies-son.css"/>
+		<script src="js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<style type="text/css">
+		@font-face {
+			font-family:'girl';
+			src: url('华康少女字体.ttf');
+		}
+	</style>
+	<body>
+		<div class="display-all">
+			<header></header>
+			<div class="display-all-mask">
+				<h1 class="no-1">品牌活动</h1>
+				<div class="sanjiao">
+					<div class="sanjiao-son">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="activies">
+			<div class="activies-title">
+				
+			</div>
+			<div class="activies-date">
+					<p></p>
+						
+			</div>
+			<div class="activies-text-1">
+				
+			</div>
+			<div class="activies-pic-1">
+				
+			</div>
+			<div class="activies-text-2">
+				
+			</div>
+			
+			
+		</div>
+		<div class="iccon">
+			
+		</div>
+		<footer></footer>
+		
+		
+	</body>
+</html>
+<script type="text/javascript">
+$(function(){
+	$('header').load('head.html')
+	$('.iccon').load('icon.html')
+	$('footer').load('foot.html')
+	console.log($(window).innerHeight())
+	$('.display-all').css('height',$(window).innerHeight())
+	
+	
+	
+	var hash = window.location.hash
+		hash = hash.substring(1)
+	console.log(hash)
+	$.ajax({
+		url:"js/data.php",
+		type:'get',
+		data:{
+			title:hash
+		},
+		success:function(res){
+			console.log(res)
+			$('.activies-title').html(res.title)
+			$('.activies-date p').html(res.date)
+			$('.activies-text-1').html(res.diyi)
+			$('.activies-text-2').html(res.dier)
+			$('.activies-pic-1').html(res.img)
+		}
+	})
+})
+	
+	
+	
+	
+	
+</script>

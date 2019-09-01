@@ -1,0 +1,187 @@
+	* {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+	
+	.nav {
+		width: 1260px;
+		height: 100px;
+		margin: 0 auto;
+	}
+	
+	.pics {
+		width: 150px;
+		height: 100px;
+		background: url(../img/head/logo.png) no-repeat center;
+		background-size: 100%;
+		float: left;
+	}
+	
+	.nav li {
+		height: 90px;
+		width: 100px;
+		margin-right: 10px;
+		font-size: 20px;
+		text-decoration: none;
+		float: left;
+		text-align: center;
+		line-height: 90px;
+		margin-top: 5px;
+		position: relative;
+	}
+	.nav li:hover a {
+		color: #E8C520;
+	}
+	
+	.nav li a {
+		text-decoration: none;
+		color: #333333;
+	}
+	
+	.nav .contact {
+		width: 150px;
+		height: 38px;
+		background: #E8C520;
+		border-radius: 20px;
+		line-height: 38px;
+		margin-top: 33px;
+	}
+	
+	.nav .contact:hover a {
+		color: white;
+	}
+	
+	
+	
+	
+	.contact:hover {
+		background: rgb(51, 51, 51);
+		cursor: pointer;
+	}
+	
+	.click {
+		font-size: 15px;
+		color: #fdd100;
+		border: 1px solid #fdd100;
+		border-radius: 5px;
+		padding: 0px 5px;
+		letter-spacing: 1.5px;
+		margin-left: 8px;
+	}
+	
+	.nav .jiameng {
+		width: 162px;
+		height: 90px;
+	}
+	
+	.about {
+		width: 104%;
+		height: 391px;
+		position: absolute;
+		top: 90px;
+		left: 0;
+		display: none;
+		background: white;
+	}
+	
+	.about .left {
+		width: 404px;
+		height: 390px;
+		background: #E8C520;
+		color: white;
+		float: left;
+	}
+	
+	.induce {
+		width: 323px;
+		height: 75px;
+		margin: 50px auto;
+		font-size: 36px;
+	}
+	
+	.induce-1 {
+		width: 323px;
+		height: 110px;
+		font-size: 18px;
+		margin: 20px auto;
+	}
+	
+	.consult {
+		width: 180px;
+		height: 50px;
+		border: 3px solid white;
+		margin-left: 40px;
+		font-size: 24px;
+		line-height: 50px;
+		text-align: center;
+	}
+	
+	.consult a {
+		color: white;
+	}
+	
+	.consult:hover {
+		background-color: #fff;
+	}
+	
+	.consult:hover a {
+		color: #e8c520;
+	}
+	
+	.right {
+		width: 944px;
+		height: 193px;
+		float: right;
+	}
+	
+	.right-1 {
+		width: 221px;
+		height: 150px;
+		float: left;
+		margin-top: 25px;
+		margin-left: 65px;
+	}
+	
+	.current {
+		width: 221px;
+		height: 50px;
+		color: #333333;
+		font-size: 20px;
+	}
+	
+	.current span {
+		color: #7C7C7C;
+		font-size: 18px;
+	}
+	
+	.right-1 p {
+		color: #7c7c7c;
+		font-size: 16px;
+		margin-top: 20px;
+	}
+	
+	.right .right-1 a:hover {
+		color: #e8c520;
+	}
+	.right .right-1 a:hover span {
+		color: #e8c520;
+	}
+.xiongmang:hover{
+	color: #FDD100;
+}
+.jiameng:hover{
+	color: #FDD100;
+}
+.news:hover{
+	color: #FDD100;
+}
+.xiongmang,
+.jiameng,
+.news{
+	color: #333333;
+}

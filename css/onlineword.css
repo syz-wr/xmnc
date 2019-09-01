@@ -1,0 +1,163 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.main-footer{
+	width: 100%;
+    min-width: 1260px;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    background: url(../img/index/LCenter-bj.jpg) no-repeat center;
+    background-size: cover;
+}
+.main-footer-bj{
+	    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 70px 0px;
+}
+
+.conter{
+	    width: 1200px;
+    display: block;
+    margin: 0px auto;
+}
+
+.main-footer .main-bt{
+	    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+
+
+.down{
+	width: 1260px;
+	height: 22px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.bar{
+	width: 60px;
+	height: 3px;
+	background: #FDD100;
+	margin-right: 15px;
+	margin-top: 10px;
+	
+	
+}
+.jiantou{
+	width: 18px;
+	height: 18px;
+	background: url(../img/index/icon.png) no-repeat 0px -221px;
+	margin-bottom: 5px;
+	margin-right: 15px;
+}
+h2{
+	width: 1260px;
+	height: 60px;
+	font-size: 38px;
+	margin: 0 auto;
+	
+	text-align: center;
+	line-height: 60px;
+	color: white;
+}
+
+.main-footer-rei{
+	width: auto;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    margin-top: 30px;
+}
+
+.main-footer-rei .main-footer-list{
+	font-size: 16px;
+    color: #ccc;
+    text-align: center;
+    line-height: 28px;
+}
+.pc-kk-form{
+	    padding: 20px 0px;
+    text-align: center;
+}
+.pc-kk-form-list{
+	    background: rgba(255, 255, 255, 0.50);
+    border-radius: 5px;
+    height: 44px;
+    line-height: 44px;
+    width: 45%;
+    display: inline-block;
+    margin: 1% 2%;
+}
+.pc-kk-form-list textarea{
+	    background: none;
+    border: none;
+    height: 120px;
+    padding: 10px;
+    resize: none;
+    width: 98%;
+    line-height: 22px;
+    color: #fff;
+    font-size: 15px;
+    font-family: "微软雅黑";
+}
+.pc-kk-form-list input{
+	    width: 96%;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+    height: 36px;
+    padding: 4px 10px;
+    outline: none;
+}
+.nice-select{
+	    position: relative;
+    
+    border-radius: 5px;
+    height: 44px;
+    line-height: 44px;
+}
+.nice-select ul{
+	    width: 100%;
+    display: none;
+    position: absolute;
+    left: -1px;
+    top: 44px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 9999;
+    border-radius: 5px;
+    text-align: left;
+    list-style: none;
+}
+.nice-select ul li{
+	    padding-left: 15px;
+}
+.nice-select ul li:hover{
+	background: white;
+}
+.main-footer .pc-kk-form-btn button{
+	background: rgba(232, 197, 32, 0.80);
+    color: #fff;
+    border: none;
+    width: 94.5%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main-footer .pc-kk-form-btn button:hover{
+	background: rgb(232, 197, 32);
+}

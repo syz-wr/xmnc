@@ -1,0 +1,190 @@
+*{
+	padding:0;
+	margin:0;
+	
+}
+.section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;}
+.section2 p { position: relative; right: -180%;}
+.section3 p { position: relative; bottom: -120%;}
+.section4 p { display: none;}
+.section5 p { position: relative; right: -180%;}
+.section6 p { position: relative; bottom: -120%;}
+.section7 p { display: none;}
+.top{
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+}
+.display-all{
+	width: 100%;
+	height:100%;
+	background: url(../img/display/m-banner.jpg) no-repeat center;
+
+}
+.display-all-mask{
+	width: 100%;
+	height:100%;
+	background: rgba(255,255,255,0.58);
+	position:absolute;
+	
+}
+
+.display-all-mask h1{
+	font-size: 58px;
+    color: #e8c520;
+    -webkit-text-stroke: 2px #fff;
+    letter-spacing: 3px;
+    padding-bottom: 5px;
+    padding-top: 90px;
+    text-align: center;
+   margin-top: 200px;
+    font-weight: bold;
+}
+
+
+.display-1{
+	width: 1260px;
+	height: 500px;
+	margin: 0px auto;
+	overflow: hidden;
+	margin-top: 80px;
+}
+.display-1-pic{
+	width: 400px;
+	height: 400px;
+	float: left;
+	overflow: hidden;
+	border-radius: 10px;
+	
+}
+.display-1 img{
+	width: 100%;
+	height: 100%;
+	transition: all 5s;
+}
+
+.display-1 img:hover{
+	transform: scale(1.2,1.2);
+}
+
+
+.sanjiao{
+	    width: 0;
+    height: 0;
+    border-width: 26px 26px 0;
+    border-style: solid;
+    border-color: #fff transparent transparent;
+    position: relative;
+    left: 50%;
+    margin-left: -20px;
+}
+.sanjiao-son{
+	content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 20px 20px 0;
+    border-style: solid;
+    border-color: #fc0 transparent transparent;
+    position: absolute;
+    top: -24px;
+    left: -20px;
+}
+.display-1-text{
+	width: 500px;
+	height: 500px;
+	float: left;
+	margin-left: 80px;
+}
+.eng{
+	color: #888888;
+	font-size: 20px;
+	text-align: left;
+}
+.names{
+	    font-size: 32px;
+    color: #333;
+    letter-spacing: 10px;
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+    text-align: left;
+}
+.description{
+	 clear: both;
+    overflow: hidden;
+    line-height: 32px;
+    padding-top: 25px;
+    height: 310px;
+    color: #515151;
+    font-size: 15px;
+    text-align: left;
+}
+.section{
+	
+}
+.shadows{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/activies/summer.jpg) no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+.shadow-1{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/activies/summm.jpg) no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+.shadow-2{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/activies/sping.jpg) no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+
+.shadow-3{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/activies/spring-1.jpg) no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.shadow-4{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/activies/autumn.jpg) no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.shadow-5{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/activies/winter.jpg) no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}

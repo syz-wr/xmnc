@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.foot{
+	width: 100%;
+    min-width: 1260px;
+    height: 425px;
+    overflow: hidden;
+    display: block;
+    background-color: #e8c520;
+}
+.footer-top{
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    padding: 60px 0px 35px;
+}
+.foot-top-left{
+	width: 445px;
+    height: 275px;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+.foot-logo{
+	width: 100%;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.20);
+    margin-bottom: 25px;
+}
+.foot-logo img{
+	width: auto;
+    height: 70px;
+    margin: 10px 0px 10px 15px;
+    border-right: 1px solid rgba(255, 255, 255, 0.35);
+    float: left;
+    padding-right: 15px;
+}
+.foot-content{
+	width: 1260px;
+	display: block;
+	margin: 0 auto;
+}
+.foot-logo p{
+	text-align: center;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1.2px;
+}
+.footer-tel{
+	width: 100%;
+    height: 160px;
+    overflow: hidden;
+    display: block;
+}
+.footer-wechat{
+	width: 160px;
+    height: 160px;
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+.footer-wechat img{
+	width: 100%;
+}
+
+.footer-phone{
+	width: 259px;
+	height: 154px;
+	float: left;
+}
+
+.footer-hotline{
+	 width: 100%;
+    height: 56px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+.footer-icon{
+	
+    width: 64px;
+    height: 52px;
+    overflow: hidden;
+    display: block;
+    background: url(../img/index/icon.png) no-repeat;
+    background-position: 0px -152px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.footer-hotline p{
+	font-size: 16px;
+    color: #fff;
+    padding-left: 75px;
+}
+
+.footer-hotline p span{
+	font-size: 26px;
+    font-weight: bold;
+    display: block;
+}
+.message{
+	width: 100%;
+    height: 42px;
+    line-height: 42px;
+    overflow: hidden;
+    display: block;
+    margin: 12px 0px 22px;
+}
+.message a{
+	width: 100%;
+    height: 42px;
+    line-height: 42px;
+    overflow: hidden;
+    display: block;
+    background-color: #222222;
+    border-radius: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.message a:hover{
+	background: white;
+	color:#E8C520;
+}
+
+.footer-text{
+	    font-size: 17px;
+    color: #fff;
+    width: 100%;
+    letter-spacing: 2px;
+    
+}
+.foot-top-right{
+	width: 750px;
+    height: 267px;
+    overflow: hidden;
+    display: block;
+    float: right;
+}
+.foot-top-right dl{
+	float: left;
+    display: block;
+    width: 120px;
+    margin-left: 30px;
+}
+
+dl dt:hover{
+	font-weight: bold;
+
+}
+dl dd:hover{
+	font-weight: bold;
+	
+}
+
+.foot-top-right dt{
+	    font-size: 18px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.foot-top-right dd{
+	font-size: 16px;
+    color: #fff;
+    line-height: 38px;
+}
+.footer-bottom{
+	width: 100%;
+    height: 54px;
+    line-height: 54px;
+    overflow: hidden;
+    display: block;
+    border-top: 1px solid rgba(255, 255, 255, 0.35);
+    color: #fff;
+    font-size: 15px;
+}
+.footer-bottom-left{
+	float: left;
+    position: relative;
+    text-indent: 30px;
+    width: 409px;
+    height: 54px;
+    margin-left: 44px;
+}
+.hulu{
+    width: 26px;
+    height: 26px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    background: url(../img/index/icon.png) no-repeat;
+    background-position: 0px -100px;
+    top: 50%;
+    margin-top: -12px;
+   
+}
+.ttt{
+	width: 169px;
+	height: 54px;
+	float: right;
+	color: #333333;
+	font-size: 15px;
+	line-height: 54px;
+}
+.footer-bottom-right{
+	width: 254px;
+	height: 54px;
+	float: right;
+	margin-right: 44px;
+}
+.footer-bottom-right a{
+	    color: #fff;
+    margin-left: 15px;
+    line-height: 54px;
+    font-size: 15px;
+    text-decoration: none;
+	
+	
+}
+a{
+	text-decoration: none;
+}

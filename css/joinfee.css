@@ -1,0 +1,135 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.main-subject {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    min-width: 1260px;
+    margin: 80px auto;
+}
+.conter {
+    width: 1200px;
+    display: block;
+    margin: 0px auto;
+}
+.join-m1-bt {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+.join-m1-bt .jm1-bt {
+    font-size: 18px;
+    color: #e8c520;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.join-m1-bt .jm1-pt {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: 2px;
+    padding: 10px 0 25px;
+}
+.join-m1-bt:after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    overflow: hidden;
+    display: block;
+    background-color: #e8c520;
+    margin: 0px auto;
+}
+.join-m1-rm1 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    margin-top: 50px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+}
+.join-m1-rmbt {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    font-size: 26px;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+    padding-left: 30px;
+    text-align: left;
+    margin: 0px 0px 20px;
+}
+.join-m1-rmbt:before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+    display: block;
+    background-color: #e8c520;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+}
+.join-m1-rm1 table tr {
+    width: 100%;
+    height: 58px;
+    line-height: 58px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.join-m1-rm1 table tr:first-of-type {
+    background-color: #e8c520;
+    border-radius: 5px;
+}
+.join-m1-rm1 table tr th {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.join-m1-rm1 table tr th.j-tim, .join-m1-rm1 table tr td.j-tim {
+    width: 475px;
+}
+.join-m1-rm1 table tr th.j-tbm, .join-m1-rm1 table tr td.j-tbm {
+    width: 248px;
+    border: 1px solid #fff;
+    border-bottom: none;
+    border-top: none;
+}
+.join-m1-rm1 table tr {
+    background-color: #f2f2f2;
+}
+
+.join-m1-rm1.join-m1-rm2 {
+    margin-top: 70px;
+}
+
+.join-m1-rm1.join-m1-rm2 table tr:first-of-type {
+    background-color: #f2f2f2;
+    border-radius: 0;
+}
+.join-m1-rm1.join-m1-rm2 table tr:last-child {
+    background-color: #e8c520;
+    border-radius: 5px;
+}
+.join-m1-rm1 table tr td.j-tbm {
+    background-color: #6c6c6c;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+}

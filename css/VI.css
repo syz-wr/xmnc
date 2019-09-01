@@ -1,0 +1,29 @@
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+.main-subject{
+	width: 100%;
+	height: 1230px;
+	margin: 0px auto;
+    background-color: #cac5c5;
+    margin-top: -85px;
+}
+.main-subject-pics{
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    margin: 35px auto;
+    text-align: center;
+}
+.main-subject-pics img{
+	width: 100%;
+	height: 100%;
+}
+.baa{
+	width: 100%;
+	height: 50px;
+	background: #FFFF00;
+}

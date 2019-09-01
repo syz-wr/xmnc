@@ -1,0 +1,127 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+
+
+#leftsead {
+    width: auto;
+    height: 290px;
+    position: fixed;
+    top: 350px;
+    right: 0px;
+    z-index: 100;
+}
+
+#leftsead li {
+    width: auto;
+    height: 60px;
+}
+#leftsead li a {
+    height: 49px;
+    float: right;
+    display: block;
+    min-width: 47px;
+    max-width: 200px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+#leftsead li a.youhui:before {
+    content: "";
+    width: 47px;
+    height: 47px;
+    overflow: hidden;
+    display: block;
+    background: url(../img/index/icon.png) no-repeat #67076f;
+    background-position: -298px -82px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#leftsead li img {
+    float: right;
+}
+#leftsead li a .hides {
+    margin-right: -200px;
+    cursor: pointer;
+    
+}
+#p3 {
+    width: 200px;
+    background-color: #EC9890;
+    height: 47px;
+    border: 1px solid #E6776C;
+    text-align: center;
+    line-height: 47px;
+    position: relative;
+    display: block;
+}
+.hides span {
+    float: right;
+    width: 153px;
+    text-align: center;
+}
+#p4 {
+    width: 200px;
+    background-color: #bc3f61;
+    height: 47px;
+    border: 1px solid #bc3056;
+    text-align: center;
+    line-height: 47px;
+    position: relative;
+    display: block;
+}
+.shows{
+	cursor: pointer;
+}
+#p2::before {
+    content: "";
+    width: 47px;
+    height: 47px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    background: url(../img/index/icon.png) -390px -59px no-repeat rgb(255, 255, 255);
+    background-position: -390px -59px;
+}
+#p3::before {
+    content: "";
+    width: 47px;
+    height: 47px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    background: url(../img/index/icon.png) -298px -215px no-repeat rgb(255, 255, 255);
+    background-position: -298px -215px;
+}
+#p4::before {
+    content: "";
+    width: 47px;
+    height: 47px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    background: url(../img/index/icon.png) -298px -301px no-repeat rgb(255, 255, 255);
+    background-position: -298px -301px;
+}
+#p2 {
+    width: 200px;
+    background-color: #A7D2A9;
+    height: 47px;
+    border: 1px solid #8BC48D;
+    text-align: center;
+    line-height: 47px;
+    position: relative;
+    display: block;
+}

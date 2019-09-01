@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.stores{
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    margin: 60px auto 80px;
+}
+.conter{
+	width: 1210px;
+	margin: 0 auto;
+}
+.store-rei {
+    width: 101%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    margin: 0px auto;
+}
+.store-pics{
+	width: 393px;
+	height: 262px;
+	float: left;
+	margin-right: 10px;
+	position: relative;
+	margin-top: 10px;
+	cursor: pointer;
+	overflow: hidden;
+	
+	
+}
+.store-pics img{
+	width: 100%;
+	height: 100%;
+	
+}
+
+.masks{
+	
+	width: 393px;
+    height: 262px;
+    overflow: hidden;   
+    background-color: rgba(232, 197, 32, 0.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+.gallery-zoom-ico {
+    width: 373px;
+    height: 242px;
+    margin: 10px;
+    display: block;
+    border: 1px solid #fff;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-orient: vertical;
+    text-align: center;
+}
+.store-mibt {
+    font-size: 28px;
+    color: #fff;
+    display: block;
+    letter-spacing: 2px;
+    padding-left: 2px;
+}
+.store-mibt:before, .store-mibt:after {
+    content: "—";
+    margin: 0px 10px;
+}
+.store-mimm {
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 10px;
+    padding-left: 10px;
+    margin: 15px 0px;
+}
+.store-mitm {
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}

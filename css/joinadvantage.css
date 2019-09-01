@@ -1,0 +1,275 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.main-subject {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    min-width: 1260px;
+    margin: 80px auto 0px;
+}
+.join-m1-bt {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+.conter {
+    width: 1200px;
+    display: block;
+    margin: 0px auto;
+}
+.join-m1-bt .jm1-bt {
+    font-size: 18px;
+    color: #e8c520;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.join-m1-bt .jm1-pt {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: 2px;
+    padding: 10px 0 25px;
+}
+.join-m1-bt:after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    overflow: hidden;
+    display: block;
+    background-color: #e8c520;
+    margin: 0px auto;
+}
+.join-jmys1 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    margin: 60px auto 80px;
+}
+.join-jmys1-fl {
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+.jmys-m1-bt {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    padding-right: 50px;
+    display: block;
+    padding-bottom: 25px;
+}
+.jmys-m1-bt p {
+    font-size: 26px;
+    color: #333;
+    font-weight: bold;
+}
+.jmys-m1-bt:after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    overflow: hidden;
+    display: block;
+    background-color: #e8c520;
+    margin-top: 25px;
+}
+.join-jmys1-fr {
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    float: right;
+}
+.join-jmys1-fr img {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    display: block;
+    float: right;
+}
+.join-jmys2 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    background-color: #f2f2f2;
+    padding: 80px 0px;
+}
+.jmys-m1-bt.jmys-m1-bt1 {
+    text-align: center;
+}
+.jmys-m1-bt.jmys-m1-bt1:after {
+    margin: 25px auto 0px;
+}
+.jmys-m1-list.jmys-m1-list1 {
+    text-align: center;
+}
+.join-jmys2-rei {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    margin: 40px auto 0px;
+}
+.join-jmys2-rei ul li {
+    width: 250px;
+    height: 395px;
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin-left: 66px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.join-jmys2-rei ul li:first-of-type {
+    margin-left: 1px;
+}
+.join-jy2-img {
+    width: 250px;
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+.join-jy2-img img {
+    width: 100%;
+}
+.join-jy2-bt {
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    overflow: hidden;
+    display: block;
+    background-color: #e8c520;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.join-jy2-txt {
+    padding: 20px;
+}
+.join-jy2-txt p {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    font-size: 16px;
+    color: #666;
+    line-height: 36px;
+}
+.join-jy2-txt p:before {
+    content: "●";
+    font-size: 16px;
+    color: #e8c51e;
+    padding-right: 10px;
+}
+.join-jmys4 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    background-color: #f2f2f2;
+    padding: 80px 0px;
+}
+.join-jmys4-rei {
+    width: 104%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    margin: 0px auto;
+}
+.join-jmys4-rei ul li {
+    width: 580px;
+    height: 250px;
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin-right: 40px;
+    background-color: #fff;
+    margin-top: 40px;
+}
+.join-m4-img {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+.join-m4-img img {
+    width: 100%;
+}
+.join-m4-txt {
+    float: left;
+    width: 290px;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    padding: 20px;
+}
+.join-m4-tbt {
+    font-size: 20px;
+    color: #333;
+    width: max-content;
+    border-bottom: 2px solid #e8c520;
+    padding-bottom: 8px;
+}
+.join-m4-tmt {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    margin-top: 10px;
+}
+.join-m4-tmt p {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    font-size: 16px;
+    color: #666;
+    line-height: 28px;
+}
+.join-m4-tmt p:before {
+    content: "●";
+    font-size: 16px;
+    color: #e8c51e;
+    padding-right: 10px;
+}
+.jmys-m1-list {
+    font-size: 16px;
+    color: #666;
+    line-height: 32px;
+}
+.jmys-m1-txt p {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    font-size: 17px;
+    color: #555;
+    font-weight: bold;
+    position: relative;
+    margin-top: 26px;
+    padding-left: 32px;
+}
+.jmys-m1-txt p:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    display: block;
+    background: url(http://www.pandamango.com/statics/pc/images/icon.png) no-repeat;
+    background-position: -145px -356px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    left: 0px;
+}
